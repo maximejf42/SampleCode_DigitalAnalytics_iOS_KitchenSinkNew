@@ -7,7 +7,7 @@
 
 #import "TagProductView.h"
 #import "Product.h"
-#import <DigitalAnalytics.h>
+@import DAMod;
 
 @interface TagProductView()
 

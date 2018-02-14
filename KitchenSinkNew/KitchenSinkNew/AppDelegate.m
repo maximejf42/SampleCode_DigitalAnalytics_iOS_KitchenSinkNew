@@ -6,10 +6,9 @@
  ******************************************************************************/
 #import "AppDelegate.h"
 #import "ShoppingCart.h"
-
-#import "DigitalAnalytics.h"
-
 #import <AdSupport/ASIdentifierManager.h>
+
+@import DAMod;
 
 @interface AppDelegate ()
 

@@ -7,7 +7,7 @@
 
 #import "TagOrderCompletion.h"
 #import "Product.h"
-#import "DigitalAnalytics.h"
+@import DAMod;
 
 @interface TagOrderCompletion()
 @property (nonatomic,strong) NSString *pageName;

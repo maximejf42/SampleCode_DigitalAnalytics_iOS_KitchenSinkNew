@@ -6,7 +6,7 @@
  ******************************************************************************/
 
 #import "TagShopAction5.h"
-#import "DigitalAnalytics.h"
+@import DAMod;
 
 @interface TagShopAction5()
 

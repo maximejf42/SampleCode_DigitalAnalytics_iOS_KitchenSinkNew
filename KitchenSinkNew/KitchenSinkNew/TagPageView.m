@@ -7,7 +7,7 @@
 #import "TagPageView.h"
 
 #import <UIKit/UIKit.h>
-#import "DigitalAnalytics.h"
+@import DAMod;
 
 @interface TagPageView ()
 
