@@ -319,7 +319,7 @@
 		DC7DE5F01A97AFB9004A7E59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					DC7DE5F71A97AFB9004A7E59 = {
@@ -413,8 +413,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-frameworks.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Debug/DAMod.framework",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework",
+				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.framework",
+				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -448,8 +448,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KitchenSinkNew/Pods-KitchenSinkNew-resources.sh",
-				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Debug/DAMod.framework/DAMod.bundle",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
+				"${PODS_ROOT}/DigitalAnalytics/SDKs/iOS/Release/DAMod.framework/DAMod.bundle",
+				"${PODS_ROOT}/EOCore/SDKs/iOS/Release/EOCore.framework/EOCoreSettings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -589,11 +589,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -635,11 +634,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -655,7 +652,6 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -673,7 +669,6 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = KitchenSinkNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
